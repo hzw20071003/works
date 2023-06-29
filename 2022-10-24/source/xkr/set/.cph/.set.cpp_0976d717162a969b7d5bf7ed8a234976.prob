@@ -1,0 +1,1 @@
+{"name":"Local: set","url":"d:\\xkr\\set\\set.cpp","tests":[{"id":1666580555795,"input":"3","output":"5"},{"id":1666580564103,"input":"7","output":"16"},{"id":1666581605375,"input":"15","output":"67"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\xkr\\set\\set.cpp","group":"local","local":true}
