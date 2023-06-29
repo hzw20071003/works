@@ -2,7 +2,7 @@
  * @Author: hzw20071003 365424368@qq.com
  * @Date: 2023-06-27 22:11:01
  * @LastEditors: hzw20071003 365424368@qq.com
- * @LastEditTime: 2023-06-29 12:51:59
+ * @LastEditTime: 2023-06-29 22:17:52
  * @FilePath: \workspace\vjudge\1.cpp
  * Copyright (c) 2023 by hezewei, All Rights Reserved.
  */
@@ -36,7 +36,7 @@ void Add_line(int x, int y, int v, int f) {
   dot[x].l.push_back(l.size());
   l.push_back(Add(x, y, v, f));
   dot[y].v.push_back(l.size());
-  l.push_back(Add(y, x, v, 0));
+  l.push_back(Add(y, x, -v, 0));
 }
 
 bool Deep(int s, int t;) {
